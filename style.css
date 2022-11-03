@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.divContainer__h {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divContainer__h__logo {
+  width: 370px;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.divContainer__h__logo img {
+  width: 40px;
+}
+
+.divContainer__h__logo p {
+  font-size: 20px;
+}
+
+.divContainer__h__nav {
+  width: 70%;
+  padding: 0px 90px;
+}
+
+.divContainer__h__nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divContainer__h__nav ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0c3f6e;
+}
+
+.divContainer__h__nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.divContainer__c {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+}
+
+.divContainer__c__M {
+  width: 50%;
+  padding: 0px 100px;
+}
+
+.divContainer__c__P {
+  width: 50%;
+}
+
+.publicidad {
+  width: 99%;
+}
+.publicidade {
+  width: 50%;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 0px 80px;
+  padding-top: 65px;
+}
+
+.form__datos {
+  flex-direction: column;
+}
+
+.form__title {
+  margin-bottom: 50px;
+}
+.form__title img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.caja {
+  width: 245px;
+  height: 45px;
+  border: 0;
+  background-color: #eee;
+  outline: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #0c3f6e;
+  width: 500px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn a {
+  color: white;
+}
+.input {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.input__a {
+  flex-direction: column;
+}
+
+.check {
+  display: flex;
+  padding-left: 5px;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.copy {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 25px;
+}
+
+.copy p {
+  font-size: 10px;
+}

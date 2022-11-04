@@ -155,7 +155,7 @@ a {
 
 .container_footer {
   padding-top: 25px;
-  background-color: #eee;
+  background-color: rgb(126, 223, 255);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -167,12 +167,13 @@ a {
 
 .item{
   margin-bottom: 15px;
+  
 }
 
 
 
 .items_footer button{
-  background-color: #0c3f6e;
+  background-color: #ffffff;
   width: 100px;
   height: 45px;
   display: flex;
@@ -182,5 +183,5 @@ a {
 }
 
 .items_footer button a{
-  color: white;
+  color: black;
 }

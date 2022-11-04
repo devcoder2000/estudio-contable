@@ -69,6 +69,10 @@ a {
   padding: 0px 100px;
 }
 
+.divContainer__c__M p{
+  font-size: 20px;
+}
+
 .divContainer__c__P {
   width: 50%;
 }
@@ -147,4 +151,36 @@ a {
 
 .copy p {
   font-size: 10px;
+}
+
+.container_footer {
+  padding-top: 25px;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items_footer p{
+  padding-bottom: 2px;
+}
+
+.item{
+  margin-bottom: 15px;
+}
+
+
+
+.items_footer button{
+  background-color: #0c3f6e;
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+.items_footer button a{
+  color: white;
 }
